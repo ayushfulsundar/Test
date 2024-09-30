@@ -14,6 +14,17 @@ public class Account {
     private String routingnumber;
     private String accountnumber;
     private int balance;
+    
+   //extra code
+    private int abc;
+
+    public void setAbc(int abc) {
+        this.abc = abc;
+    }
+
+    public int getAbc() {
+        return abc;
+    }
 
     public String getBankname() {
         return bankname;
